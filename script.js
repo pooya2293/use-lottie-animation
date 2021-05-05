@@ -6,15 +6,15 @@ const animItem = bodymovin.loadAnimation({
 	animType: 'svg',
 	loop: false ,
 	autoplay: false,
-	// path: 'https://assets8.lottiefiles.com/packages/lf20_bpqtup0h.json'
+	path: 'https://assets8.lottiefiles.com/packages/lf20_bpqtup0h.json'
 	// path:'https://assets10.lottiefiles.com/packages/lf20_1z9p0cqg.json'
-	path:'https://assets8.lottiefiles.com/packages/lf20_xldshlit.json'
+	// path:'https://assets8.lottiefiles.com/packages/lf20_xldshlit.json'
 });
 
 play.addEventListener('click',()=>{
 	// animItem.play();
 	svgContainer.classList.remove('hide');
-	animItem.goToAndPlay(0,true);
+	animItem.goToAndPlay(28,true);
 })
 
 animItem.addEventListener('complete',() =>{

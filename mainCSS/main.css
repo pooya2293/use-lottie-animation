@@ -30,10 +30,11 @@ body {
 
 /* line 27, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .btn {
-  background: #343434;
+  background: #ff5e5e;
   margin-top: 2em;
   border: none;
-  padding: 1em;
+  padding: 1.52em;
+  width: 150px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -42,28 +43,18 @@ body {
   cursor: pointer;
 }
 
-/* line 39, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
-.btn:hover {
-  background: #424242;
-}
-
-/* line 43, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
+/* line 47, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .btn:active {
-  background: orange;
+  background: #cc4b4b;
 }
 
-/* line 48, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
+/* line 53, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .svg {
-  width: 200px;
+  width: 300px;
   position: absolute;
-  top: -40px;
-  left: -30px;
+  top: 155px;
+  left: -27px;
   pointer-events: none;
-}
-
-/* line 59, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
-.hide {
-  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

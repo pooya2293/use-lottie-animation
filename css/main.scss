@@ -25,10 +25,18 @@ body {
 }
 
 .btn {
-	background: #343434;
+	// background: #343434;
+
+	//button trash animation 
+	background: #ff5e5e;
+
 	margin-top: 2em;
 	border: none;
-	padding: 1em;
+	// padding: 1em;
+
+//button trash animation
+	padding: 1.52em;
+  	width: 150px;
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -37,19 +45,26 @@ body {
 	cursor: pointer;
 
 	&:hover {
-		background: #424242;
+		// background: #424242;
 	}
 
 	&:active {
-		background: orange;
+		// background: orange;
+		background: #cc4b4b;
 	}
 }
 
 .svg {
-	width: 200px;
-	position: absolute;
-	top: -40px;
-	left: -30px;
+	// width: 200px;
+	// position: absolute;
+	// top: -40px;
+	// left: -30px;
+
+	//button trash animation 
+	width: 300px;
+  	position: absolute;
+  	top: 155px;
+  	left: -27px;
 	// help to acsses to behind the svg div
 	pointer-events: none;
 }
@@ -57,5 +72,5 @@ body {
 // we whant to when click show object animation
 
 .hide {
-	display: none;
+	// display: none;
 }
