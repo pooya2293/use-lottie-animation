@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../css/main.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n\tbackground: rgb(27,27,27);\r\n\tmargin: 0;\r\n\tdisplay: grid;\r\n\tplace-content: center;\r\n\theight: 100vh;\r\n\tfont-family: 'poppins';\r\n\tcolor: white;\r\n}\r\n\r\n.container {\r\n\tposition: relative;\r\n\twidth: 60%;\r\n\tmargin: 0 auto;\r\n\tbackground: #232323;\r\n\tpadding: 2em;\r\n\r\n\th1 {\r\n\t\tmargin: 0;\r\n\t}\r\n\r\n\tp{\r\n\t\tcolor: gray;\r\n\t}\r\n}\r\n\r\n.btn {\r\n\tbackground: #343434;\r\n\tmargin-top: 2em;\r\n\tborder: none;\r\n\tpadding: 1em;\r\n\tcolor: white;\r\n\tfont-weight: bold;\r\n\ttext-transform: uppercase;\r\n\tletter-spacing: 0.2em;\r\n\toutline: 0;\r\n\tcursor: pointer;\r\n\r\n\t&:hover {\r\n\t\tbackground: #424242;\r\n\t}\r\n\r\n\t&:active {\r\n\t\tbackground: orange;\r\n\t}\r\n}\r\n\r\n.svg {\r\n\twidth: 200px;\r\n\tposition: absolute;\r\n\ttop: -40px;\r\n\tleft: -30px;\r\n\tpointer-events: none;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACJ,UAAU,EAAE,OAAa;EACzB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,MAAM;EACrB,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,SAAS;EACtB,KAAK,EAAE,KAAK;CACZ;;;AAED,AAAA,UAAU,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,GAAG;CASZ;;;AAdD,AAOC,UAPS,CAOT,EAAE,CAAC;EACF,MAAM,EAAE,CAAC;CACT;;;AATF,AAWC,UAXS,CAWT,CAAC,CAAA;EACA,KAAK,EAAE,IAAI;CACX;;;AAGF,AAAA,IAAI,CAAC;EACJ,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,GAAG;EACf,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,KAAK;EACrB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,OAAO;CASf;;;AAnBD,AAYC,IAZG,AAYF,MAAM,CAAC;EACP,UAAU,EAAE,OAAO;CACnB;;;AAdF,AAgBC,IAhBG,AAgBF,OAAO,CAAC;EACR,UAAU,EAAE,MAAM;CAClB;;;AAGF,AAAA,IAAI,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,KAAK;EACX,cAAc,EAAE,IAAI;CACpB"
+}
