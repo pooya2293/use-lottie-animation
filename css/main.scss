@@ -50,5 +50,12 @@ body {
 	position: absolute;
 	top: -40px;
 	left: -30px;
+	// help to acsses to behind the svg div
 	pointer-events: none;
+}
+
+// we whant to when click show object animation
+
+.hide {
+	display: none;
 }

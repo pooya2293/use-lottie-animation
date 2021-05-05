@@ -6,9 +6,15 @@ const animItem = bodymovin.loadAnimation({
 	animType: 'svg',
 	loop: false ,
 	autoplay: false,
-	path: 'https://assets8.lottiefiles.com/packages/lf20_xldshlit.json'
+	path: 'https://assets8.lottiefiles.com/packages/lf20_bpqtup0h.json'
 });
 
 play.addEventListener('click',()=>{
-	animItem.play();
+	// animItem.play();
+	svgContainer.classList.remove('hide');
+	animItem.goToAndPlay(0,true);
+})
+
+animItem.addEventListener('complete',() =>{
+	svgContainer.classList.add('hide');
 })
