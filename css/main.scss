@@ -35,8 +35,8 @@ body {
 	// padding: 1em;
 
 //button trash animation
-	padding: 1.52em;
-  	width: 150px;
+	padding: .7em;
+  	width: 160px;
 	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -55,16 +55,17 @@ body {
 }
 
 .svg {
-	// width: 200px;
-	// position: absolute;
-	// top: -40px;
-	// left: -30px;
+	width: 200px;
+	position: absolute;
+	top: -40px;
+	left: -30px;
 
 	//button trash animation 
-	width: 300px;
-  	position: absolute;
-  	top: 158px;
-  	left: -27px;
+	// width: 300px;
+ //  	position: absolute;
+ //  	top: 158px;
+ //  	left: -27px;
+
 	// help to acsses to behind the svg div
 	pointer-events: none;
 }

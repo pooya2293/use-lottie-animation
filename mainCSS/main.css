@@ -33,8 +33,8 @@ body {
   background: #ff5e5e;
   margin-top: .2em;
   border: none;
-  padding: 1.52em;
-  width: 150px;
+  padding: .7em;
+  width: 160px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -50,10 +50,10 @@ body {
 
 /* line 57, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .svg {
-  width: 300px;
+  width: 200px;
   position: absolute;
-  top: 158px;
-  left: -27px;
+  top: -40px;
+  left: -30px;
   pointer-events: none;
 }
 
