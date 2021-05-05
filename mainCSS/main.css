@@ -31,7 +31,7 @@ body {
 /* line 27, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .btn {
   background: #ff5e5e;
-  margin-top: 2em;
+  margin-top: .2em;
   border: none;
   padding: 1.52em;
   width: 150px;
@@ -43,16 +43,16 @@ body {
   cursor: pointer;
 }
 
-/* line 47, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
+/* line 51, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .btn:active {
   background: #cc4b4b;
 }
 
-/* line 53, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
+/* line 57, C:/Users/poorya/Documents/GitHub/use-lottie-animation/css/main.scss */
 .svg {
   width: 300px;
   position: absolute;
-  top: 155px;
+  top: 158px;
   left: -27px;
   pointer-events: none;
 }
